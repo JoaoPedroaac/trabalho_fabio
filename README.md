@@ -4,6 +4,11 @@
 
 Este é um projeto básico em Node.js utilizando o framework Hapi.js para gerenciamento de rotas e o Joi para validação de dados, construido na disciplina de Laboratório Web da Fatec Franca.
 
+Atualizações e entrega efetuadas pelos alunos:
+
+## João Pedro Andrade Cintra : 1091392313024
+## Leonardo Victor Pereira Ferreira : 1091392323052
+
 Apresenta estrutura base para desenvolvimento de apis.
 
 ## Requisitos
@@ -15,7 +20,7 @@ Apresenta estrutura base para desenvolvimento de apis.
 
 1. Clone o repositório em sua máquina local:
    ```bash
-   git clone git@github.com:fabiomedeirosf/lab-web-2024-2.git
+   git clone git@github.com/JoaoPedroaac/trabalho_fabio
    ```
 2. Acesse a pasta do projeto:
    ```bash
