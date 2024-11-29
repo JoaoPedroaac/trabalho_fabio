@@ -1,18 +1,14 @@
-const listaAlunos = [];
-const alunoModel = require('./aluno-model');
+const Aluno = require('./aluno-model');
 
-const save = async (aluno) => {
-    
-    const saved = await alunoModel.Aluno.create(aluno);
+// Salva um aluno no banco
+const save = async (alunoData) => {
+  const aluno = new Aluno(alunoData);
+  return await aluno.save(); // Salva no MongoDB
+};
 
-    return aluno;
-}
+// Lista alunos com filtros opcionais
+const list = async (filters = {}) => {
+  return await Aluno.find(filters); // Busca no MongoDB
+};
 
-
-const list = async(filters) => {
-
-    
-    return await alunoModel.Aluno.findAll();
-}
-
-module.exports = {save, list};
+module.exports = { save, list };
