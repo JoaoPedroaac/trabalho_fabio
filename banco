@@ -1,0 +1,4 @@
+PORT=5005
+HOST=0.0.0.0
+DATABASE_URL=mongodb+srv://claudiomatos:UcVJJeY2lMpu69Cm@arduino.hxqx1.mongodb.net/
+ENVIRONMENT=development
