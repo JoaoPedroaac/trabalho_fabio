@@ -60,6 +60,15 @@ Deixe o  . env configurado igual ao arquivo 'banco' que está nesta pasta.
 - **joi**: Biblioteca para validação de dados no Node.js.
 - **mongoose**: Biblioteca ODM para integração com MongoDB. 
 
-## Licença
+1. Rotas
+   ```bash
+   http://localhost:5005/v1/produtos
 
-Este projeto está sob a licença ISC.
+   ```
+1. Rotas
+   ```bash
+   http://localhost:5005/v1/produtos/{id}
+
+   ```
+
+CRUD FEITO E PRONTO PARA USO.
