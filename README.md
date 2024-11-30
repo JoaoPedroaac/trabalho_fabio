@@ -32,9 +32,9 @@ Apresenta estrutura base para desenvolvimento de apis.
    npm install
    ```
 4. Configure as variáveis de ambiente:
-
+```bash
 Deixe o  . env configurado igual ao arquivo 'banco' que está nesta pasta.
- 
+   ```
 ## Scripts de Inicialização
 
 - **Iniciar em Produção:**
