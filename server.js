@@ -1,6 +1,7 @@
 const Hapi = require("@hapi/hapi");
 const mongoose = require("mongoose"); // Importa o Mongoose
 const routes = require("./config/routes");
+const produtoRoutes = require("./api/v1/produtos/produto-routes");
 const config = require('./config/envs-config');
 
 const server = Hapi.server({
@@ -9,6 +10,8 @@ const server = Hapi.server({
 });
 
 routes.forEach((path) => server.route(path));
+
+produtoRoutes.forEach((route) => server.route(route));
 
 const connectDB = async () => {
     try {
