@@ -7,7 +7,6 @@ Este é um projeto básico em Node.js utilizando o framework Hapi.js para gerenc
 Atualizações e entrega efetuadas pelos alunos:
 
 ## João Pedro Andrade Cintra : 1091392313024
-## Leonardo Victor Pereira Ferreira : 1091392323052
 
 Apresenta estrutura base para desenvolvimento de apis.
 
